@@ -1,1 +1,27 @@
-<p>header works!</p>
+<mat-toolbar color="primary">
+  <div class="container-right">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon"
+      (click)="drawerEvent.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span class="header-style">My App</span>
+    <app-menulist style="margin: auto;"></app-menulist>
+  </div>
+
+  <span class="flex-style"></span>
+
+  <div class="container-left">
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>notifications</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>help</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>more_vert</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>account_circle</mat-icon>
+    </button>
+  </div>
+</mat-toolbar>

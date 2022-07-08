@@ -1,1 +1,9 @@
-<p>admin-layout works!</p>
+<app-header [drawerEvent]="drawer"></app-header>
+<mat-drawer-container class="mat-container" autosize>
+  <div class="main-content">
+    <router-outlet></router-outlet>
+  </div>
+  <mat-drawer #drawer class="mat-sidenav" mode="over">
+    <app-sidemenu></app-sidemenu>
+  </mat-drawer>
+</mat-drawer-container>

@@ -1,0 +1,18 @@
+<div style="display: flex;">
+  <button mat-button [matMenuTriggerFor]="menu" class="list-menu" 
+    aria-label="Example icon-button with menu icon">
+    <span class="title-style">Menu item</span>
+    <mat-icon class="dropdown-icon">arrow_drop_down</mat-icon>
+  </button>
+</div>
+
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>
+    <mat-icon>notifications 1</mat-icon>
+    <span>List 1</span>
+  </button>
+  <button mat-menu-item>
+    <mat-icon>notifications 2</mat-icon>
+    <span>List 2</span>
+  </button>
+</mat-menu>

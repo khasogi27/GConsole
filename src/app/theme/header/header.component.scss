@@ -1,0 +1,42 @@
+.container-left {
+  display: flex;
+  padding: 0;
+}
+
+.container-right {
+  display: flex;
+  padding: 0;
+}
+
+.mat-toolbar {
+  height: 6%;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.mat-toolbar-row, .mat-toolbar-single-row {
+  padding: 0px 12px;
+}
+
+.flex-style {
+  flex: 1 1 auto;
+}
+
+.header-style {
+  font-weight: normal;
+  padding: 0 6px;
+  margin: auto;
+}
+
+.title-style {
+  font-weight: normal;
+  font-size: 0.9rem;
+  margin: auto;
+}
+
+.dropdown-icon {
+  font-size: 24px;
+}
+
+.list-menu {
+  padding: 0 12px;
+}
