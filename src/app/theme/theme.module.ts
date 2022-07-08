@@ -3,16 +3,17 @@ import { AdminLayoutComponent } from './admin-layout/admin-layout.component';
 import { HeaderComponent } from './header/header.component';
 import { SidemenuComponent } from './sidemenu/sidemenu.component';
 import { SharedModule } from '@shared/shared.module';
-import { MenulistComponent } from './menulist/menulist.component';
+import { ListmenuComponent } from './listmenu/listmenu.component';
 
 const COMPONENTS: any[] = [
   AdminLayoutComponent,
   HeaderComponent,
-  SidemenuComponent
+  SidemenuComponent,
+  ListmenuComponent
 ];
 
 @NgModule({
-  declarations: [...COMPONENTS, MenulistComponent],
+  declarations: [...COMPONENTS,],
   imports: [
     SharedModule
   ]
