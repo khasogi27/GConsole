@@ -1,0 +1,58 @@
+<div style="display: flex;">
+  <button mat-icon-button [matMenuTriggerFor]="menuNotif" class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+    <mat-icon>notifications</mat-icon>
+  </button>
+  <button mat-icon-button [matMenuTriggerFor]="menuHelp" class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+    <mat-icon>help</mat-icon>
+  </button>
+  <button mat-icon-button [matMenuTriggerFor]="menuOption" class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+    <mat-icon>more_vert</mat-icon>
+  </button>
+  <button mat-icon-button [matMenuTriggerFor]="menuAccount" class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+    <mat-icon>account_circle</mat-icon>
+  </button>
+</div>
+
+<mat-menu #menuNotif="matMenu">
+  <button mat-menu-item>
+    <mat-icon>notifications 1</mat-icon>
+    <span>List 1</span>
+  </button>
+  <button mat-menu-item>
+    <mat-icon>notifications 2</mat-icon>
+    <span>List 2</span>
+  </button>
+</mat-menu>
+
+<mat-menu #menuHelp="matMenu">
+  <button mat-menu-item>
+    <mat-icon>notifications 1</mat-icon>
+    <span>List 1</span>
+  </button>
+  <button mat-menu-item>
+    <mat-icon>notifications 2</mat-icon>
+    <span>List 2</span>
+  </button>
+</mat-menu>
+
+<mat-menu #menuOption="matMenu">
+  <button mat-menu-item>
+    <mat-icon>notifications 1</mat-icon>
+    <span>List 1</span>
+  </button>
+  <button mat-menu-item>
+    <mat-icon>notifications 2</mat-icon>
+    <span>List 2</span>
+  </button>
+</mat-menu>
+
+<mat-menu #menuAccount="matMenu">
+  <button mat-menu-item>
+    <mat-icon>notifications 1</mat-icon>
+    <span>List 1</span>
+  </button>
+  <button mat-menu-item>
+    <mat-icon>notifications 2</mat-icon>
+    <span>List 2</span>
+  </button>
+</mat-menu>

@@ -3,17 +3,19 @@ import { AdminLayoutComponent } from './admin-layout/admin-layout.component';
 import { HeaderComponent } from './header/header.component';
 import { SidemenuComponent } from './sidemenu/sidemenu.component';
 import { SharedModule } from '@shared/shared.module';
-import { ListmenuComponent } from './listmenu/listmenu.component';
+import { DropmenuComponent } from './dropmenu/dropmenu.component';
+import { RightmenuComponent } from './rightmenu/rightmenu.component';
 
 const COMPONENTS: any[] = [
   AdminLayoutComponent,
   HeaderComponent,
   SidemenuComponent,
-  ListmenuComponent
+  DropmenuComponent,
+  RightmenuComponent,
 ];
 
 @NgModule({
-  declarations: [...COMPONENTS,],
+  declarations: [...COMPONENTS],
   imports: [
     SharedModule
   ]
